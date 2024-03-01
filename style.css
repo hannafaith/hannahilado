@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+li.mainNav {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+li.navItems, li.navItems > a {
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+li.hoverItems {
+    width: 15vw;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+li.hoverItems:hover {
+    background-color: rgb(143, 42, 165);
+    translate: 2px 0;
+}
+
+#profilePic {
+    height: 50vh;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #00000099;
+}
+
+nav {
+    width: 20vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d3d3d3;
+    box-shadow: 0 0 10px gray;
+}
+
+div.containers {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.mainContainer {
+    margin-left: 20vw;
+    width: 78vw;
+}
+
+div.center {
+    text-align: center;
+}
